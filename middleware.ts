@@ -6,6 +6,7 @@ import {
 const isProtectedRoute = createRouteMatcher([
   '/Home(.*)',
   '/profile(.*)',
+  '/api/webhooks(.*)'
 ]);
 
 export default clerkMiddleware((auth, req) => {
