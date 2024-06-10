@@ -1,12 +1,12 @@
 import React from 'react'
 
-const page = () => {
+const AddTransformationTypePage = () => {
   return (
-    <div>here is your type of transformation</div>
+    <div>here is your type of transformation changed</div>
   )
 }
 
-export default page
+export default AddTransformationTypePage
 // import React from 'react'
 // import Header from '@/components/shared/Header'
 // import { transformationTypes } from '@/constants'
